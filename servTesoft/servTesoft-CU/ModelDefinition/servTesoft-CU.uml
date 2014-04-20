@@ -1,0 +1,1825 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm9="http://schemas.microsoft.com/dsltools/UseCaseModel"
+  dslVersion="1.0.0.0"
+  Id="29fabcce-52ca-4816-9048-9cd1c0b23d1b"
+  name="servTesoft-CU" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <actor
+        Id="9d74198a-22e1-465f-abf8-1630bc742307"
+        name="Usuario - Cleunte"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="12401cda-a49d-4da5-b6a4-fbb3124b58d7"
+            isDerived="false"
+            sourceEndRoleName="Usuario - Cleunte"
+            targetEndRoleName="Registro de Usuario"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="1c2d327e-0e37-4ba5-8c09-5629f42d09da"
+              LastKnownName="Registro de Usuario"
+              LastKnownLocation="servTesoft-CU.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3647e275-8dd3-4304-849b-038ddb259166"
+                  name="Usuario - Cleunte"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="09d66158-547c-46be-bbc3-3986d8751738"
+                  name="Registro de Usuario"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="dc8e946d-c96a-4b09-a25f-0eef1865c86d"
+            isDerived="false"
+            sourceEndRoleName="Usuario - Cleunte"
+            targetEndRoleName="Ingreso de Usuario"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="2a74d832-eb69-438a-afd6-2dfa3bbd3268"
+              LastKnownName="Ingreso de Usuario"
+              LastKnownLocation="servTesoft-CU.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0e289ab3-0a7f-46d2-a939-515dea17bee6"
+                  name="Usuario - Cleunte"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b85747c3-b938-4c60-aef1-fadc576794cb"
+                  name="Ingreso de Usuario"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="393cdbc4-4b0b-4e7b-8fcf-964b5c01f13b"
+            isDerived="false"
+            sourceEndRoleName="Usuario - Cleunte"
+            targetEndRoleName="Consulta de catalogo de Productos y Servicios"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="a94ff339-6453-4bf6-abcd-21089293a3a6"
+              LastKnownName="Consulta de catalogo de Productos y Servicios"
+              LastKnownLocation="servTesoft-CU.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e1e69323-5750-494f-9554-3a1e6da9eac5"
+                  name="Usuario - Cleunte"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ad576779-f424-468c-8366-1154d66ff369"
+                  name="Consulta de catalogo de Productos y Servicios"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="815d16aa-efe0-4c3e-807c-b8b8220b2ed4"
+            isDerived="false"
+            sourceEndRoleName="Usuario - Cleunte"
+            targetEndRoleName="Solicitar un Producto y/o Servicio"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="45c801b0-3563-4404-b101-97471a002ee2"
+              LastKnownName="Solicitar un Producto y/o Servicio"
+              LastKnownLocation="servTesoft-CU.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3769d9d3-c0cf-427d-a467-7c3cc60c4d17"
+                  name="Usuario - Cleunte"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="09d07e47-3834-49b6-a380-5d922a433486"
+                  name="Solicitar un Producto y/o Servicio"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="129b68fe-9187-4dd1-96f2-1172622ce2d6"
+            isDerived="false"
+            sourceEndRoleName="Usuario - Cleunte"
+            targetEndRoleName="Consultar  agendamiento"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="48aa6934-e102-497f-ab63-837886f0ae34"
+              LastKnownName="Consultar servicio agendado"
+              LastKnownLocation="servTesoft-CU.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="be9ec8f7-c8ff-47f9-b9a7-a788ec14f893"
+                  name="Usuario - Cleunte"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2795e2b6-31a4-4e9a-91e2-f09016c2f420"
+                  name="Consultar  agendamiento"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="d90d089a-77c3-4387-97fd-104783de8f5a"
+            isDerived="false"
+            sourceEndRoleName="Usuario - Cleunte"
+            targetEndRoleName="Consultar Factura de cliente"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="f9fb8002-4b66-4bf3-82ce-99f08c89a6af"
+              LastKnownName="Consultar Factura de cliente"
+              LastKnownLocation="servTesoft-CU.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="87a5a216-b437-48d9-b6a3-d6832d157d2c"
+                  name="Usuario - Cleunte"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d939a638-4afb-4749-bd7c-ab246169746c"
+                  name="Consultar Factura de cliente"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="f62b4206-7ac5-4525-9684-f916f355f119"
+            isDerived="false"
+            sourceEndRoleName="Usuario - Cleunte"
+            targetEndRoleName="Generar nueva solicitud de rpoducto y/o servicio"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="3c68d138-bbbc-4f05-9b51-629203dd18a6"
+              LastKnownName="Generar nueva solicitud de rpoducto y/o servicio"
+              LastKnownLocation="servTesoft-CU.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="cefabc65-240f-41df-9311-2f06d3caa364"
+                  name="Usuario - Cleunte"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="795796ec-6460-4630-914d-d46777d1ead0"
+                  name="Generar nueva solicitud de rpoducto y/o servicio"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="88b911af-90d0-4dac-9461-c0fb22f6d9a1"
+            isDerived="false"
+            sourceEndRoleName="Usuario - Cleunte"
+            targetEndRoleName="Consultar las solicitudes realizadas"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="bfb0e5d4-99b6-4d7a-a670-b968eb820217"
+              LastKnownName="Consultar las solicitudes realizadas"
+              LastKnownLocation="servTesoft-CU.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="edf47ff0-7f9c-45d4-bca6-bd1da76ac23d"
+                  name="Usuario - Cleunte"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a34b8f1f-4ed5-4d42-b2e7-db7bdc068e6f"
+                  name="Consultar las solicitudes realizadas"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="acfb0fa1-907c-4116-bdf9-54aac48ee158"
+        name="Admin"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="46cd2268-c54a-4257-8ca1-5577818cb7ce"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Editar informacion de usuario - cliente"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="09467e75-9486-4e80-9e54-eb33031b82ba"
+              LastKnownName="Editar informacion de usuario - cliente"
+              LastKnownLocation="servTesoft-CU.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="adb3b590-8574-4b07-b8e6-6d129c97a4e5"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7978e89e-3610-45b6-83ae-f72838ad26e6"
+                  name="Editar informacion de usuario - cliente"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="d4758f73-9c45-41be-b4c2-17037a73d475"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Registro de Usuario"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="1c2d327e-0e37-4ba5-8c09-5629f42d09da"
+              LastKnownName="Registro de Usuario"
+              LastKnownLocation="servTesoft-CU.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9b627004-8521-4089-9c6c-d1e89a5d0eac"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="86e28451-c442-448d-9126-974f8e01a2d9"
+                  name="Registro de Usuario"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="fd051ba9-6bad-4948-9a89-799572ec01e7"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Ingreso de Usuario"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="2a74d832-eb69-438a-afd6-2dfa3bbd3268"
+              LastKnownName="Ingreso de Usuario"
+              LastKnownLocation="servTesoft-CU.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5d557f9f-0d05-4ee7-9089-c7921d3f3a61"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e10295cd-79fc-4616-b1a7-6e220e996044"
+                  name="Ingreso de Usuario"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="df25296d-aedd-4822-bf67-0611248b2680"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Crear nuevo Porducto"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="02457951-a652-4c15-953d-7fdbb092acb8"
+              LastKnownName="Crear nuevo Porducto"
+              LastKnownLocation="servTesoft-CU.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e2cb11c1-a1e7-424c-89a8-ee82fe89e955"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3892b3c0-d5b7-42f7-9916-5f90c034e8c6"
+                  name="Crear nuevo Porducto"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="942da52f-54e9-415e-966e-eb20361bcf03"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Consultar existencias de productos"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="581a4097-135a-4bb0-a80e-09c69c738960"
+              LastKnownName="Consultar existencias de productos"
+              LastKnownLocation="servTesoft-CU.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c1f671bd-b0fc-4585-8ed6-82b600cce1c3"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a0b7c548-6b4b-4219-990e-d190f1a54508"
+                  name="Consultar existencias de productos"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="945e89ad-3f4b-42d3-a00b-e7f7a45a89ae"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Generar reportes de existencias"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="3cc2dd55-1a27-48ba-9d4a-99c684e76474"
+              LastKnownName="Generar reportes de existencias"
+              LastKnownLocation="servTesoft-CU.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="41cea743-2488-444e-a658-d82aa3fd5158"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c0bcf612-f0ae-4a48-8cd4-e90ef798581a"
+                  name="Generar reportes de existencias"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="43c066ef-f9fe-4033-899e-4221fc419bac"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Registrar salida de producto"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="d722ff5f-abb5-40f7-9d77-d6ab5b9851f9"
+              LastKnownName="Registrar salida de producto"
+              LastKnownLocation="servTesoft-CU.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f1b9ba94-3a81-42d4-90cb-8ed132808d18"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5d0f18b0-2078-4e4b-9f80-d337fe042ae1"
+                  name="Registrar salida de producto"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="71246d82-6209-4285-be83-c49b9a987ac1"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Registrar nueva existencia de producto"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="beb23247-7377-49a0-81e8-9451f6b949b7"
+              LastKnownName="Registrar entrada  de producto"
+              LastKnownLocation="servTesoft-CU.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e85e17ba-4606-42d6-b76f-e131a66ac257"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a98ce21f-c455-49b5-ae6d-b9c10b629bf2"
+                  name="Registrar nueva existencia de producto"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="1cad4567-b4de-4e89-9f69-674bdc6dafc9"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Edtar Productos y/o Servicios"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="03f850cb-9ce6-488d-8b01-448107fe8279"
+              LastKnownName="Edtar Productos y/o Servicios"
+              LastKnownLocation="servTesoft-CU.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="60d9e2c9-a64a-48ff-b981-c9be2834fe8e"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6aac1f57-f5f5-44ea-bcc1-7c649cafdffa"
+                  name="Edtar Productos y/o Servicios"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="5b65ba45-9a1d-4bce-873c-44b920f95652"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Crear nuevo Producto y/o Servicio"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="88fbbf9a-5216-433d-9275-605845272c01"
+              LastKnownName="Crear nuevo Producto y/o Servicio"
+              LastKnownLocation="servTesoft-CU.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6792478f-4d68-49ec-a6c6-2a984e2193f7"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ea0b2abb-781e-435b-be68-45e2f4a10f46"
+                  name="Crear nuevo Producto y/o Servicio"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="299aa7ce-8404-4c48-8ef8-3b92fa37bfd9"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Crear nuevo agendamiento de servicio"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="5ccfb0f8-7657-46c3-b6fd-c814c0243ff8"
+              LastKnownName="Crear nuevo agendamiento de servicio"
+              LastKnownLocation="servTesoft-CU.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9a0a6b10-fbd4-471a-a8aa-ffddb5da8a5b"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c8f00c1e-c06f-4ebf-8a46-13b1d5a64819"
+                  name="Crear nuevo agendamiento de servicio"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="e20b1351-4a3b-45e8-aeeb-92653b3a7aa5"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Consultar  agendamiento"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="48aa6934-e102-497f-ab63-837886f0ae34"
+              LastKnownName="Consultar servicio agendado"
+              LastKnownLocation="servTesoft-CU.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="cd63dcd2-7dd3-44c5-8487-f4540328b067"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4bacae80-5856-4341-bb3a-a7a4cede52f6"
+                  name="Consultar  agendamiento"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="79e56f98-eab7-4f92-ae10-79f40fdf9967"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Editar agendamiento"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="4a1a614a-9d56-4360-acef-c13d3275506a"
+              LastKnownName="Editar agendamiento"
+              LastKnownLocation="servTesoft-CU.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5bf9c7e9-0086-4968-8437-1b858305c36a"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0117dc28-e03c-4970-a7de-94750a21bc12"
+                  name="Editar agendamiento"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="6c37ef30-3af8-4fa1-8581-0e34a0f2a4fb"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Eliminar un  agendamiento"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="0b9257b3-6cb0-4d03-8db1-19defb92306d"
+              LastKnownName="Eliminar un servicio agendado"
+              LastKnownLocation="servTesoft-CU.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="91e35dd4-5a8e-4a56-9100-7ba9a91e0901"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4f24b582-3b69-4442-b634-39f7e1552d3e"
+                  name="Eliminar un  agendamiento"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="7ec37cb6-d6ca-4fc3-9362-faa206595549"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Editar factura"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="a9822dd0-0d3f-4bff-baea-664c67b6da66"
+              LastKnownName="Editar factura"
+              LastKnownLocation="servTesoft-CU.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="69ec576c-a591-4879-ae43-7e2bebd16ed5"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="724d7d9c-0efc-4346-8a87-192efe4d6172"
+                  name="Editar factura"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="1c17ac87-f8bc-493d-96c2-84d767ca9bd9"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="ELiminar una factura"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="8bb8d6c2-cb80-4510-84eb-f37c67250c77"
+              LastKnownName="ELiminar una factura"
+              LastKnownLocation="servTesoft-CU.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="22042ba7-305e-4a2a-9128-d23f4aeb5cdb"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="bd910b88-370a-4d9e-aac3-c8c3f6ac0a64"
+                  name="ELiminar una factura"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="9d83e242-4769-46ac-9ca3-9e0b3db5b55e"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Consultar Factura de cliente"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="f9fb8002-4b66-4bf3-82ce-99f08c89a6af"
+              LastKnownName="Consultar Factura de cliente"
+              LastKnownLocation="servTesoft-CU.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ea56c669-8720-43c8-89d1-d6696baaf362"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5f2b069e-eb40-423c-8eb1-8ed2769883ea"
+                  name="Consultar Factura de cliente"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="f999a811-5fed-4421-b6f1-1467a82e770b"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Creacion de nueva factura"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="003a0be8-c838-437c-ad04-e9b459420893"
+              LastKnownName="Creacion de nueva factura"
+              LastKnownLocation="servTesoft-CU.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f5734cab-bd1a-40a2-9e73-f5b5e684819a"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0d6e08b7-dc84-4146-bd88-b0d52d57e2a7"
+                  name="Creacion de nueva factura"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="2f203ddd-a94f-4fe0-a0d8-16bc8703fbb6"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Editar las solicitudes realizadas"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="f515435e-d9a3-499b-8ec0-ac9dabf35caa"
+              LastKnownName="Editar las solicitudes realizadas"
+              LastKnownLocation="servTesoft-CU.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8607509d-9eef-49fe-b486-9cc6880e342a"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="809971c6-91c2-47c2-bf4e-7d36cc437107"
+                  name="Editar las solicitudes realizadas"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="278d0268-d8d0-4d87-973c-7eac710bc636"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Eliminar las solicitudes realizadas"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="0b2ce789-3db3-4082-a256-d585d5f86173"
+              LastKnownName="Eliminar las solicitudes realizadas"
+              LastKnownLocation="servTesoft-CU.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="47ffd009-88ab-4f00-9dfb-3f69430cb4d8"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1c5d9ef7-61e5-498f-acb0-d04f13b4777c"
+                  name="Eliminar las solicitudes realizadas"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="2c2843bf-cb72-48a7-8018-9cde8bbb5f93"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Consultar las solicitudes realizadas"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="bfb0e5d4-99b6-4d7a-a670-b968eb820217"
+              LastKnownName="Consultar las solicitudes realizadas"
+              LastKnownLocation="servTesoft-CU.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8717bafe-23b2-4858-a896-053b3ea3663b"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="bc9873fb-5b18-4bdd-b88c-736a2f2ad133"
+                  name="Consultar las solicitudes realizadas"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="9f3f9273-c785-4028-a71c-a2359b2b2424"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Registro de gastos varios "
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="1dba8b51-3633-442c-aa25-683bd6d22cbb"
+              LastKnownName="Registro de gastos"
+              LastKnownLocation="servTesoft-CU.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="17c11cd4-08cf-4d9f-96ba-f37b17b63151"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5862730d-d9fa-44df-b5f3-bec4d3f6cac9"
+                  name="Registro de gastos varios "
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="eb1c44be-8e19-46ab-a946-58d71bc3f16d"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Consulta de gastos varios"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="5a4eb79a-6d6f-4492-9d51-fd8d63eda2ff"
+              LastKnownName="Consulta de gastos varios"
+              LastKnownLocation="servTesoft-CU.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8f675619-4f53-4deb-ae54-f7f305848c8c"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="590383d8-5400-4a29-ad85-ce30a99c0e2f"
+                  name="Consulta de gastos varios"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="1df46c26-7c35-4905-89d1-d5f045b150ef"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Registro de nomina"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="6916a9a0-4a06-43ee-8283-c856500f71cf"
+              LastKnownName="Registro de nomina"
+              LastKnownLocation="servTesoft-CU.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5cc0b3e2-3c7b-4c19-9a66-bb3814d6592c"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c5cfee69-a6dc-4f6e-bacf-f1d7f70e31f8"
+                  name="Registro de nomina"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="4e3b0728-9bad-4f5e-b39f-c64252e8d6de"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Generar reportes de gatos varios y de nomina"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="c5f031ec-2eee-4ad6-9b0e-6e2edd362662"
+              LastKnownName="Generar reportes de gatos varios y de nomina"
+              LastKnownLocation="servTesoft-CU.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9e4cabda-31ae-4aed-a0d6-5045b74512b4"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="152bea4e-0f18-493a-af9a-1fe9077594fd"
+                  name="Generar reportes de gatos varios y de nomina"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="482e5f0c-d98f-4238-b3a2-6a144bf72618"
+        name="Tecnico"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="aa16006b-c3c2-4f1b-ab04-f8f32ef3cc59"
+            isDerived="false"
+            sourceEndRoleName="Tecnico"
+            targetEndRoleName="Consultar  agendamiento"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="48aa6934-e102-497f-ab63-837886f0ae34"
+              LastKnownName="Consultar servicio agendado"
+              LastKnownLocation="servTesoft-CU.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d847b6a3-4c6a-42e3-9af0-018e506d6a91"
+                  name="Tecnico"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="daff7f46-8aa1-4a0f-a647-dffa82f9bb8c"
+                  name="Consultar  agendamiento"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="da64eb58-bb61-45b2-981d-b3e1cdbc5642"
+        name="Usuario"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="1c2d327e-0e37-4ba5-8c09-5629f42d09da"
+        name="Registro de Usuario"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="da64eb58-bb61-45b2-981d-b3e1cdbc5642"
+            LastKnownName="Usuario"
+            LastKnownLocation="servTesoft-CU.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="09467e75-9486-4e80-9e54-eb33031b82ba"
+        name="Editar informacion de usuario - cliente"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="da64eb58-bb61-45b2-981d-b3e1cdbc5642"
+            LastKnownName="Usuario"
+            LastKnownLocation="servTesoft-CU.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="2a74d832-eb69-438a-afd6-2dfa3bbd3268"
+        name="Ingreso de Usuario"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="da64eb58-bb61-45b2-981d-b3e1cdbc5642"
+            LastKnownName="Usuario"
+            LastKnownLocation="servTesoft-CU.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="3fdae7c9-2007-4db7-a895-8dc8b508fc61"
+        name="Inventario"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="02457951-a652-4c15-953d-7fdbb092acb8"
+        name="Crear nuevo Porducto"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="beb23247-7377-49a0-81e8-9451f6b949b7"
+        name="Registrar entrada  de producto"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="3fdae7c9-2007-4db7-a895-8dc8b508fc61"
+            LastKnownName="Inventario"
+            LastKnownLocation="servTesoft-CU.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="d722ff5f-abb5-40f7-9d77-d6ab5b9851f9"
+        name="Registrar salida de producto"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="3fdae7c9-2007-4db7-a895-8dc8b508fc61"
+            LastKnownName="Inventario"
+            LastKnownLocation="servTesoft-CU.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="581a4097-135a-4bb0-a80e-09c69c738960"
+        name="Consultar existencias de productos"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="3fdae7c9-2007-4db7-a895-8dc8b508fc61"
+            LastKnownName="Inventario"
+            LastKnownLocation="servTesoft-CU.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="3cc2dd55-1a27-48ba-9d4a-99c684e76474"
+        name="Generar reportes de existencias"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="3fdae7c9-2007-4db7-a895-8dc8b508fc61"
+            LastKnownName="Inventario"
+            LastKnownLocation="servTesoft-CU.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="b065347c-25d8-4973-912d-c82aa0921f44"
+        name="Productos y Servicios"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="a94ff339-6453-4bf6-abcd-21089293a3a6"
+        name="Consulta de catalogo de Productos y Servicios"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="b065347c-25d8-4973-912d-c82aa0921f44"
+            LastKnownName="Productos y Servicios"
+            LastKnownLocation="servTesoft-CU.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="03f850cb-9ce6-488d-8b01-448107fe8279"
+        name="Edtar Productos y/o Servicios"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="b065347c-25d8-4973-912d-c82aa0921f44"
+            LastKnownName="Productos y Servicios"
+            LastKnownLocation="servTesoft-CU.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="45c801b0-3563-4404-b101-97471a002ee2"
+        name="Solicitar un Producto y/o Servicio"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="88fbbf9a-5216-433d-9275-605845272c01"
+        name="Crear nuevo Producto y/o Servicio"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="b065347c-25d8-4973-912d-c82aa0921f44"
+            LastKnownName="Productos y Servicios"
+            LastKnownLocation="servTesoft-CU.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="7ede7810-aa1f-494c-bb94-d4520adf1fdb"
+        name="Agenda"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="5ccfb0f8-7657-46c3-b6fd-c814c0243ff8"
+        name="Crear nuevo agendamiento de servicio"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="7ede7810-aa1f-494c-bb94-d4520adf1fdb"
+            LastKnownName="Agenda"
+            LastKnownLocation="servTesoft-CU.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="4a1a614a-9d56-4360-acef-c13d3275506a"
+        name="Editar agendamiento"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="7ede7810-aa1f-494c-bb94-d4520adf1fdb"
+            LastKnownName="Agenda"
+            LastKnownLocation="servTesoft-CU.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="48aa6934-e102-497f-ab63-837886f0ae34"
+        name="Consultar servicio agendado"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="7ede7810-aa1f-494c-bb94-d4520adf1fdb"
+            LastKnownName="Agenda"
+            LastKnownLocation="servTesoft-CU.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="0b9257b3-6cb0-4d03-8db1-19defb92306d"
+        name="Eliminar un servicio agendado"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="7ede7810-aa1f-494c-bb94-d4520adf1fdb"
+            LastKnownName="Agenda"
+            LastKnownLocation="servTesoft-CU.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="d1cbe67f-e622-4111-b860-de29f78a251d"
+        name="Facturacion"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="003a0be8-c838-437c-ad04-e9b459420893"
+        name="Creacion de nueva factura"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="d1cbe67f-e622-4111-b860-de29f78a251d"
+            LastKnownName="Facturacion"
+            LastKnownLocation="servTesoft-CU.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="a9822dd0-0d3f-4bff-baea-664c67b6da66"
+        name="Editar factura"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="d1cbe67f-e622-4111-b860-de29f78a251d"
+            LastKnownName="Facturacion"
+            LastKnownLocation="servTesoft-CU.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="f9fb8002-4b66-4bf3-82ce-99f08c89a6af"
+        name="Consultar Factura de cliente"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="d1cbe67f-e622-4111-b860-de29f78a251d"
+            LastKnownName="Facturacion"
+            LastKnownLocation="servTesoft-CU.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="8bb8d6c2-cb80-4510-84eb-f37c67250c77"
+        name="ELiminar una factura"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="d1cbe67f-e622-4111-b860-de29f78a251d"
+            LastKnownName="Facturacion"
+            LastKnownLocation="servTesoft-CU.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="75239959-0dca-4a0a-b0f9-e2f0f820a4a8"
+        name="Solicitudes"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="3c68d138-bbbc-4f05-9b51-629203dd18a6"
+        name="Generar nueva solicitud de rpoducto y/o servicio"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="75239959-0dca-4a0a-b0f9-e2f0f820a4a8"
+            LastKnownName="Solicitudes"
+            LastKnownLocation="servTesoft-CU.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="f515435e-d9a3-499b-8ec0-ac9dabf35caa"
+        name="Editar las solicitudes realizadas"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="75239959-0dca-4a0a-b0f9-e2f0f820a4a8"
+            LastKnownName="Solicitudes"
+            LastKnownLocation="servTesoft-CU.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="bfb0e5d4-99b6-4d7a-a670-b968eb820217"
+        name="Consultar las solicitudes realizadas"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="75239959-0dca-4a0a-b0f9-e2f0f820a4a8"
+            LastKnownName="Solicitudes"
+            LastKnownLocation="servTesoft-CU.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="0b2ce789-3db3-4082-a256-d585d5f86173"
+        name="Eliminar las solicitudes realizadas"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="75239959-0dca-4a0a-b0f9-e2f0f820a4a8"
+            LastKnownName="Solicitudes"
+            LastKnownLocation="servTesoft-CU.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="629c8c86-80ca-45a1-8734-d98c1491de64"
+        name="Contabilidad"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="1dba8b51-3633-442c-aa25-683bd6d22cbb"
+        name="Registro de gastos"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="629c8c86-80ca-45a1-8734-d98c1491de64"
+            LastKnownName="Contabilidad"
+            LastKnownLocation="servTesoft-CU.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="6916a9a0-4a06-43ee-8283-c856500f71cf"
+        name="Registro de nomina"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="5a4eb79a-6d6f-4492-9d51-fd8d63eda2ff"
+        name="Consulta de gastos varios"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="629c8c86-80ca-45a1-8734-d98c1491de64"
+            LastKnownName="Contabilidad"
+            LastKnownLocation="servTesoft-CU.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="c5f031ec-2eee-4ad6-9b0e-6e2edd362662"
+        name="Generar reportes de gatos varios y de nomina"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="629c8c86-80ca-45a1-8734-d98c1491de64"
+            LastKnownName="Contabilidad"
+            LastKnownLocation="servTesoft-CU.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

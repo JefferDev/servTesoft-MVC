@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "servTesoft", "servTesoft\servTesoft.csproj", "{BC5C1DA7-A4D9-44F9-BE72-8E9C442BB56C}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "servTesoft-Modelado", "servTesoft-CU\servTesoft-Modelado.modelproj", "{E053FB6B-7CFD-4AFB-888B-8C6E9C62451C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC5C1DA7-A4D9-44F9-BE72-8E9C442BB56C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC5C1DA7-A4D9-44F9-BE72-8E9C442BB56C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC5C1DA7-A4D9-44F9-BE72-8E9C442BB56C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC5C1DA7-A4D9-44F9-BE72-8E9C442BB56C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E053FB6B-7CFD-4AFB-888B-8C6E9C62451C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E053FB6B-7CFD-4AFB-888B-8C6E9C62451C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E053FB6B-7CFD-4AFB-888B-8C6E9C62451C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E053FB6B-7CFD-4AFB-888B-8C6E9C62451C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
