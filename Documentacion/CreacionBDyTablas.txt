@@ -1,0 +1,128 @@
+USE master
+GO
+
+CREATE DATABASE BD_servTesoft
+GO
+
+USE BD_servTesoft
+GO
+
+CREATE TABLE Rol
+(Id_Rol INT NOT NULL PRIMARY KEY,
+Descripcion NVARCHAR(150) NOT NULL)
+GO
+
+CREATE TABLE Usuario
+(Id_Usuario INT NOT NULL PRIMARY KEY,
+Nombres NVARCHAR(100),
+Apellidos NVARCHAR(100),
+NIT BIGINT,
+Empresa	NVARCHAR(100),
+Telefono1 BIGINT,
+Telefono2 BIGINT,
+Correo NVARCHAR(100),
+Direccion NVARCHAR(150),
+Contraseña NVARCHAR(20),
+FK_Id_Rol INT NOT NULL FOREIGN KEY REFERENCES dbo.Rol(Id_Rol))
+GO
+
+CREATE TABLE Categoria_Gasto
+(Id_CategoriaGasto INT NOT NULL PRIMARY KEY,
+Descripcion NVARCHAR(100))
+GO
+
+CREATE TABLE Gasto
+(Id_Gastos INT NOT NULL PRIMARY KEY,
+Valor NVARCHAR(100) NOT NULL,
+Fecha DATE NOT NULL,
+FK_Id_Categoria_Gasto INT NOT NULL FOREIGN KEY REFERENCES dbo.Categoria_Gasto(Id_CategoriaGasto),
+FK_Id_Usuario INT NOT NULL FOREIGN KEY REFERENCES dbo.Usuario(Id_Usuario))
+GO
+
+CREATE TABLE EstadoFactura
+(Id_EstadoFactura INT NOT NULL PRIMARY KEY,
+NombreArticulo NVARCHAR(100),
+Descripcion NVARCHAR(100))
+GO
+
+CREATE TABLE Factura
+(Id_Factura INT NOT NULL PRIMARY KEY,
+FechaCreacion DATE NOT NULL,
+FechaVencimiento DATE NOT NULL,
+Valor BIGINT,
+FK_Id_EstadoFactura INT NOT NULL FOREIGN KEY REFERENCES dbo.EstadoFactura(Id_EstadoFactura),
+FK_Id_Usuario INT NOT NULL FOREIGN KEY REFERENCES dbo.Usuario(Id_Usuario))
+GO
+
+CREATE TABLE Proveedor 
+(Id_Proveedor INT NOT NULL PRIMARY KEY,
+NIT BIGINT NOT NULL,
+Nombre_Empresa NVARCHAR(100),
+Nombre_Contacto NVARCHAR(100),
+Telefono1 BIGINT,
+Telefono2 BIGINT,
+Direccion NVARCHAR(100),
+Correo NVARCHAR(50))
+GO
+
+CREATE TABLE CategoriaProducto
+(Id_Categoria INT NOT NULL PRIMARY KEY,
+Nombre NVARCHAR(100) NOT NULL,
+Descripcion NVARCHAR(100) NOT NULL)
+GO
+
+CREATE TABLE EstadoProducto
+(Id_EstadoProducto INT NOT NULL PRIMARY KEY,
+Estado NVARCHAR(100) NOT NULL)
+GO
+
+CREATE TABLE Producto
+(Id_CodigoProducto INT NOT NULL PRIMARY KEY,
+Nombre NVARCHAR(100) NOT NULL,
+Descripcion NVARCHAR(100),
+Costo_Unitario BIGINT,
+Costo_Proveedor BIGINT,
+Costo_PorMayor BIGINT,
+Cantidad_Existencia INT,
+FK_Id_CategoriaProducto INT NOT NULL FOREIGN KEY REFERENCES dbo.CategoriaProducto(Id_Categoria),
+FK_Id_Proveedor INT NOT NULL FOREIGN KEY REFERENCES dbo.Proveedor(Id_Proveedor),
+FK_Id_EstadoProducto INT NOT NULL FOREIGN KEY REFERENCES dbo.EstadoProducto(Id_EstadoProducto))
+GO
+
+CREATE TABLE CategoriaServicio
+(Id_CategoriaServicio INT NOT NULL PRIMARY KEY,
+Nombre NVARCHAR(100) NOT NULL,
+Descripcion NVARCHAR(100) NOT NULL)
+GO
+
+CREATE TABLE Servicio
+(Id_Servicio INT NOT NULL PRIMARY KEY,
+ Descripcion NVARCHAR(100) NOT NULL,
+ ValorVenta BIGINT NOT NULL,
+ FK_Id_CategoriaServicio INT NOT NULL FOREIGN KEY REFERENCES dbo.CategoriaServicio(Id_CategoriaServicio),
+ FK_Id_ProductoAlquiler INT NOT NULL FOREIGN KEY REFERENCES dbo.Producto(Id_CodigoProducto))
+ GO
+
+ CREATE TABLE Solicitud
+ (Id_Solicitud INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+ Fecha DATE NOT NULL,
+ Descripcion NVARCHAR(255),
+ FK_Usuario INT NOT NULL FOREIGN KEY REFERENCES dbo.Usuario(Id_Usuario),
+ FK_Producto INT NOT NULL FOREIGN KEY REFERENCES dbo.Producto(Id_CodigoProducto),
+ FK_Servicio INT NOT NULL FOREIGN KEY REFERENCES dbo.Servicio(Id_Servicio))
+ GO
+
+CREATE TABLE AgendaVentaProductoServicio
+(Id_Agenda INT NOT NULL PRIMARY KEY,
+ IdSolicitud INT NOT NULL FOREIGN KEY REFERENCES dbo.Solicitud(Id_Solicitud),
+ IdUsuario INT NOT NULL FOREIGN KEY REFERENCES dbo.Usuario(Id_Usuario))
+ GO
+
+ CREATE TABLE DetalleAgendaProducto
+ (Id_DetalleAgendaProducto INT NOT NULL PRIMARY KEY,
+ FK_IdAgenda INT NOT NULL FOREIGN KEY REFERENCES dbo.AgendaVentaProductoServicio(Id_Agenda),
+ FK_Producto INT NOT NULL FOREIGN KEY REFERENCES dbo.Producto(Id_CodigoProducto))
+ GO
+
+
+
